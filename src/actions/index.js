@@ -8,3 +8,13 @@ export const decNumber = () => {
         type : "DECREMENT"
      }
 }
+export const multiplyNumber = () => { 
+    return{
+        type : "MULTIPLYNUMBER"
+    }
+}
+export const divideNumber = () => {
+    return { 
+        type : "DIVIDENUMBER"
+     }
+}
